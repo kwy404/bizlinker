@@ -63,7 +63,7 @@ export class NpcNode extends CharacterNode {
             layer: Layer.OVERLAY
         }).appendTo(this);
 
-        this.caption = "PRESS E TO INTERACT";
+        this.caption = "PRESSIONE E PARA INTERAGIR";
     }
 
 

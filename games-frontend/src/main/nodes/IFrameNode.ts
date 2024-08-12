@@ -31,7 +31,7 @@ export class IFrameNode extends InteractiveNode {
             anchor: Direction.CENTER,
             tag: "off",
             ...args
-        }, "PRESS E TO INTERACT");
+        }, "PRESSIONE E PARA INTERAGIR");
         this.onUpdate = onUpdate;
         this.url = args.tiledObject?.getOptionalProperty("url", "string")?.getValue() ?? "";
         this.toStartString = args.tiledObject?.getOptionalProperty("startstring", "string")?.getValue() ?? "TO INTERACT";

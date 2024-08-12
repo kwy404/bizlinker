@@ -1,21 +1,4 @@
-# Gather
-
-[![Current Release](https://github.com/eweren/gather.town/actions/workflows/createRelease.yml/badge.svg)](https://github.com/eweren/gather.town/actions/workflows/createRelease.yml)
-
-## NOTE
-
-I stopped working on this and cancelled the running servers. Still the code should run when deploying and adjusting addresses for backend and jitsi.
-
-## How it works
-
-The realtime part is done by using [the backend service](https://github.com/eweren/games-backend) and the video conference part by creating a jitsi instance-
-
-## Deployment
-
-All branches will be automatically deployed.
-The master-branch is always available at [Pages.dev](https://gather-town.pages.dev).
-
-## Development
+# BizLinker
 
 ### Getting started
 
@@ -24,7 +7,7 @@ The master-branch is always available at [Pages.dev](https://gather-town.pages.d
 * Clone the source code:
 
   ```sh
-  git clone git@github.com:eweren/gather.town.git
+  git clone git@github.com:eweren/BizLinker.town.git
   ```
 
 * Initially run `npm i` in the project folder to install/update dependencies.

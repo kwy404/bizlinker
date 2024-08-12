@@ -26,7 +26,7 @@ export class SpeakerNode extends InteractiveNode {
             anchor: Direction.CENTER,
             tag: "off",
             ...args
-        }, "PRESS E TO START MUSIC");
+        }, "PRESSIONE E PARA INICIAR A MÚSICA");
         this.range = args?.tiledObject?.getOptionalProperty("range", "float")?.getValue() ?? 600.0;
         this.intensity = args?.tiledObject?.getOptionalProperty("intensity", "float")?.getValue() ?? 1;
         this.soundbox = args?.tiledObject?.getOptionalProperty("soundbox", "int")?.getValue() ?? -1;

@@ -29,7 +29,7 @@ export class SwitchNode extends InteractiveNode {
             anchor: Direction.CENTER,
             tag: "off",
             ...args
-        }, "PRESS E TO START MIRO");
+        }, "PRESSIONE E PARA INICIAR O MIRO");
         this.onlyOnce = onlyOnce;
         this.onUpdate = onUpdate;
     }

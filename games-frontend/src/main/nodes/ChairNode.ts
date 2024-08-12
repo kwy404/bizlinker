@@ -21,7 +21,7 @@ export class ChairNode extends InteractiveNode {
             anchor: Direction.CENTER,
             tag: "off",
             ...args
-        }, "PRESS E TO SIT DOWN");
+        }, "PRESSIONE E PARA SENTAR");
     }
 
     protected getRange(): number {

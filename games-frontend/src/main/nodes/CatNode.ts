@@ -15,7 +15,7 @@ export class CatNode extends InteractiveNode {
             anchor: Direction.CENTER,
             tag: "idle",
             ...args
-        }, "PRESS E TO PET");
+        }, "PRESSIONE E PARA ACARICIAR");
     }
 
     protected getRange(): number {

@@ -27,7 +27,7 @@ export class PresentationNode extends InteractiveNode {
             anchor: Direction.CENTER,
             tag: "off",
             ...args
-        }, "PRESS E TO PRESENT");
+        }, "PRESSIONE E PARA APRESENTAR");
         this.presentationBoardId = args.tiledObject?.getOptionalProperty("forPresentationboard", "int")?.getValue();
     }
 

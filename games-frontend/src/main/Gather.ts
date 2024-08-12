@@ -248,7 +248,7 @@ export class Gather extends Game {
         if (!this.isInGameScene()) {
             return;
         }
-        const textInputNode = new TextInputNode<this>("", "ENTER TEXT", undefined, true, { layer: Layer.HUD, padding: 4 });
+        const textInputNode = new TextInputNode<this>("", "Insira um texto", undefined, true, { layer: Layer.HUD, padding: 4 });
         this.getGameScene().rootNode.appendChild(textInputNode);
         textInputNode.moveTo(this.getGameScene().rootNode.width / 2, 10);
         textInputNode.focus();

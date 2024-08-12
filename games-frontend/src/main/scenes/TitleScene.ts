@@ -22,10 +22,10 @@ export class TitleScene extends Scene<Gather> {
 
     private characterNodes: Array<AsepriteNode<Gather>> =
         Gather.characterSprites.map(aseprite => new AsepriteNode<Gather>({ aseprite, tag: PostCharacterTags.IDLE, anchor: Direction.RIGHT }));
-    private chooseNode = new TextNode<Gather>({ font: Gather.headlineFont, text: "CHOOSE CHARACTER" });
-    private confirmNode = new TextNode<Gather>({ font: Gather.standardFont, text: "⤶ SELECT", color: "grey" });
+    private chooseNode = new TextNode<Gather>({ font: Gather.headlineFont, text: "ESCOLHA O PERSONAGEM" });
+    private confirmNode = new TextNode<Gather>({ font: Gather.standardFont, text: "⤶ SELECIONAR", color: "grey" });
     private containerNode = new SceneNode<Gather>();
-    private nameInputNode = new TextInputNode<Gather>("", "ENTER USERNAME", 12);
+    private nameInputNode = new TextInputNode<Gather>("", "DIGITE O NOME DE USUÁRIO", 12);
     private index = 1;
     private name = "";
     private notificationNode!: NotificationNode;

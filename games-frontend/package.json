@@ -1,8 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/package#",
-  "name": "gather",
+  "name": "BizLinker",
   "version": "0.0.1",
-  "description": "A gather clone.",
+  "description": "BizLinker",
   "maintainers": [],
   "keywords": [
     "game",
@@ -22,11 +22,12 @@
     "cspell": "cspell 'src/**/*'",
     "coverage": "jest --coverage",
     "test": "npm run -s cspell && npm run -s lint && npm run -s check",
-    "compile": "tsc",
+    "compile": "set NODE_OPTIONS=--openssl-legacy-provider && tsc",
     "watch": "tsc -w",
     "prepare": "npm run -s clean && npm run -s compile",
     "dist": "webpack",
-    "start": "set NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server -d",
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server -d",
+    "start": "webpack-dev-server -d",
     "package": "electron-forge package",
     "make": "electron-forge make"
   },

@@ -11,7 +11,7 @@ module.exports = {
         // https://electron.github.io/electron-packager/master/interfaces/electronpackager.win32metadataoptions.html
         win32metadata: {
             FileDescription: "A small 2D action platformer with handcrafted pixel art, an emphasis on mood, and a blasting original soundtrack.",
-            ProductName: "Gather"
+            ProductName: "BizLinker"
         },
         icon: path.resolve(__dirname, "assets", "appicon.iconset"),
         appCopyright: "Copyright (C) 2021 Nico Hülscher",
@@ -21,7 +21,7 @@ module.exports = {
         {
             name: "@electron-forge/maker-squirrel",
             config: {
-                name: "gather"
+                name: "BizLinker"
             }
         },
         {
@@ -34,8 +34,8 @@ module.exports = {
             name: "@electron-forge/maker-deb",
             config: {
                 icon: "./assets/appicon.iconset/icon_256x256.png",
-                productName: "Gather",
-                genericName: "Gather",
+                productName: "BizLinker",
+                genericName: "BizLinker",
                 categories: [
                     "Game"
                 ]
